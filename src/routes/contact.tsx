@@ -17,7 +17,7 @@ export const Route = createFileRoute("/contact")({
       {
         name: "description",
         content:
-          "Call 0201506061, WhatsApp 0594120503 or email amaanallahresources@gmail.com to order LPG or book a gas service in Koforidua and Akim-Taco.",
+          "Call 0500804207, WhatsApp 0593533943 or email amaanallahresources@gmail.com to order LPG or book a gas service in Koforidua and Akim-Taco.",
       },
       { property: "og:title", content: "Contact Amaanallah Gas" },
       {
@@ -125,7 +125,7 @@ function Contact() {
             </div>
           ))}
         </div>
-<form action="https://formspree.io/f/meajpvdg" method="POST" className="space-y-4 rounded-xl border border-border bg-card p-7 shadow-card">
+<form action="https://formspree.io/f/meajpvdg" method="POST">
        
           <h2 className="text-2xl font-bold uppercase">Send a message</h2>
           <div className="grid gap-4 sm:grid-cols-2">
