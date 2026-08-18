@@ -1,9 +1,9 @@
 export const SITE = {
   name: "Amaanallah Gas",
   domain: "amaanallahresources.com",
-  phone: "0201506061",
-  whatsapp: "0594120503",
-  whatsappIntl: "233594120503",
+  phone: "0500804207",
+  whatsapp: "0593533943",
+  whatsappIntl: "233593533943",
   email: "amaanallahresources@gmail.com",
   location: "Koforidua / Akim-Tafo area, Eastern Region, Ghana",
 } as const;
