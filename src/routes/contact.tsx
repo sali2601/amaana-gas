@@ -125,11 +125,8 @@ function Contact() {
             </div>
           ))}
         </div>
-
-        <form
-          onSubmit={submit}
-          className="space-y-4 rounded-xl border border-border bg-card p-7 shadow-card"
-        >
+<form action="https://formspree.io/f/meajpvdg" method="POST" className="space-y-4 rounded-xl border border-border bg-card p-7 shadow-card">
+       
           <h2 className="text-2xl font-bold uppercase">Send a message</h2>
           <div className="grid gap-4 sm:grid-cols-2">
             <div className="space-y-2">
