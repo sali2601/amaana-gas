@@ -1,0 +1,16 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Blue hand/flame shape on left -->
+  <path d="M 160 250 Q 140 280 150 340 Q 160 380 200 400 Q 220 350 240 300 Q 250 270 240 240 Q 230 220 200 220 Q 180 220 160 250 Z" fill="#0052CC"/>
+  
+  <!-- Blue triangle/arrow pointing up -->
+  <path d="M 180 150 L 320 320 L 240 320 Z" fill="#0066FF"/>
+  
+  <!-- Green leaf shape in center -->
+  <path d="M 280 260 Q 300 240 320 250 Q 330 270 320 300 Q 300 320 280 310 Q 270 290 280 260 Z" fill="#22C55E"/>
+  
+  <!-- Dark green curved arc on right -->
+  <path d="M 350 120 Q 400 180 420 260 Q 420 340 380 380" stroke="#15803D" stroke-width="45" fill="none" stroke-linecap="round"/>
+  
+  <!-- Light green curved arc on top right -->
+  <path d="M 380 100 Q 430 160 450 240 Q 450 300 420 340" stroke="#84CC16" stroke-width="35" fill="none" stroke-linecap="round"/>
+</svg>
