@@ -130,8 +130,8 @@ function Contact() {
             </div>
           ))}
         </div>
-<form onSubmit={submit} className="space-y-4">
-       
+
+        <form onSubmit={submit} className="space-y-6">
           <h2 className="text-2xl font-bold uppercase">Send a message</h2>
           <div className="grid gap-4 sm:grid-cols-2">
             <div className="space-y-2">
@@ -190,3 +190,4 @@ function Contact() {
     </>
   );
 }
+
