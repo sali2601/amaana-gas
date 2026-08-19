@@ -43,23 +43,28 @@ function Contact() {
   const submit = async (event: React.FormEvent) => {
     event.preventDefault();
     setSaving(true);
-    const { error } = await supabase.from("contact_messages").insert({
-      name: form.name,
-      phone: form.phone || null,
-      email: form.email || null,
-      subject: form.subject || null,
-      message: form.message,
-    });
-    setSaving(false);
-    if (error) {
-      toast.error("Could not send your message", { description: error.message });
-      return;
+    try {
+      const { error } = await supabase.from("contact_messages").insert({
+        name: form.name,
+        phone: form.phone || null,
+        email: form.email || null,
+        subject: form.subject || null,
+        message: form.message,
+      });
+      if (error) {
+        toast.error("Could not send your message", { description: error.message });
+        return;
+      }
+      toast.success("Message sent", {
+        description: "Thank you. We will get back to you shortly.",
+      });
+      setForm({ name: "", phone: "", email: "", subject: "", message: "" });
+    } finally {
+      setSaving(false);
     }
-    toast.success("Message sent", {
-      description: "Thank you. We will get back to you shortly.",
-    });
-    setForm({ name: "", phone: "", email: "", subject: "", message: "" });
   };
+
+
 
   return (
     <>
@@ -125,7 +130,7 @@ function Contact() {
             </div>
           ))}
         </div>
-<form action="https://formspree.io/f/meajpvdg" method="POST">
+<form onSubmit={submit} className="space-y-4">
        
           <h2 className="text-2xl font-bold uppercase">Send a message</h2>
           <div className="grid gap-4 sm:grid-cols-2">
