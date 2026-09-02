@@ -43,8 +43,14 @@ function Products() {
               {PRODUCTS.filter((p) => p.category === category).map((product) => (
                 <div
                   key={product.name}
-                  className="flex flex-col rounded-xl border border-border bg-card p-6 shadow-card"
+                  className="relative flex flex-col rounded-xl border border-border bg-card p-6 pt-12 shadow-card"
                 >
+                  <Badge
+                    className="absolute right-4 top-4"
+                    variant={product.availability === "In stock" ? "default" : "secondary"}
+                  >
+                    {product.availability}
+                  </Badge>
                   <span className="flex size-11 items-center justify-center rounded-lg bg-accent-soft text-accent">
                     <Package className="size-5" />
                   </span>
@@ -54,9 +60,6 @@ function Products() {
                   </p>
                   <div className="mt-4 flex items-center justify-between gap-2">
                     <span className="text-sm font-medium">{product.price}</span>
-                    <Badge variant={product.availability === "In stock" ? "default" : "secondary"}>
-                      {product.availability}
-                    </Badge>
                   </div>
                   <Button asChild className="mt-4" variant="outline">
                     <a
