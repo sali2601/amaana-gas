@@ -6,6 +6,11 @@ export const SITE = {
   whatsappIntl: "233593533943",
   email: "amaanallahresources@gmail.com",
   location: "Koforidua / Akim-Tafo area, Eastern Region, Ghana",
+  hours: [
+    { day: "Monday - Friday", time: "8:00 AM - 6:00 PM" },
+    { day: "Saturday", time: "9:00 AM - 4:00 PM" },
+    { day: "Sunday", time: "Closed" },
+  ],
 } as const;
 
 export const waLink = (message: string) =>
