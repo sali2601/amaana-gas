@@ -5,8 +5,8 @@ const iconDataUri = (svg: string) => `data:image/svg+xml;charset=UTF-8,${encodeU
 
 const contactIcons = {
   phone: iconDataUri(`
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#f97316" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.76 19.76 0 0 1 3.08 4.18 2 2 0 0 1 5.06 2h3a2 2 0 0 1 2 1.72l.47 2.5a2 2 0 0 1-1.12 2.15L8 9.8a16.1 16.1 0 0 0 6.2 6.2l1.43-1.41a2 2 0 0 1 2.15-1.12l2.5.47A2 2 0 0 1 22 16.92Z"/>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+      <path fill="#f97316" d="M6.6 10.8a15.2 15.2 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24c1.1.35 2.3.54 3.5.54a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A18 18 0 0 1 2 6a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.2.18 2.4.54 3.5a1 1 0 0 1-.25 1l-2.2 2.3Z"/>
     </svg>
   `),
   whatsapp: iconDataUri(`
@@ -16,15 +16,13 @@ const contactIcons = {
     </svg>
   `),
   mail: iconDataUri(`
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#f97316" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-      <rect x="3" y="5" width="18" height="14" rx="2"/>
-      <path d="m4 7 8 6 8-6"/>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+      <path fill="#f97316" d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v11a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 17.5v-11Zm2.2 1.5 6.8 5.1 6.8-5.1H6.2Zm13.3 2.1-6.6 4.9a1 1 0 0 1-1.2 0L4.5 10.1v7.4c0 .3.2.5.5.5h13c.3 0 .5-.2.5-.5v-7.4Z"/>
     </svg>
   `),
   location: iconDataUri(`
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#f97316" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-      <path d="M12 21s-6-5.23-6-11a6 6 0 0 1 12 0c0 5.77-6 11-6 11Z"/>
-      <circle cx="12" cy="10" r="2.5"/>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+      <path fill="#f97316" d="M12 2.3a7.2 7.2 0 0 1 7.2 7.2c0 5.1-6 11.3-7.2 12.5C10.8 20.8 4.8 14.6 4.8 9.5A7.2 7.2 0 0 1 12 2.3Zm0 4.2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"/>
     </svg>
   `),
 };
@@ -99,7 +97,7 @@ export function SiteFooter() {
                 rel="noreferrer"
                 className="hover:text-foreground"
               >
-                WhatsApp {SITE.whatsapp}
+                 {SITE.whatsapp}
               </a>
             </li>
             <li className="flex items-center gap-2">
