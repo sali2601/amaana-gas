@@ -180,7 +180,7 @@ export const PRODUCTS: Product[] = [
     price: "On request",
     availability: "On request",
     image:
-      "/flameforge-app-main/src/components/Standing Gas Cooker.jpg",
+      "/flameforge-app-main/src/components/standing gas cooker.jpg",
   },
 ];
 
