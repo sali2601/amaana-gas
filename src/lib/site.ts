@@ -1,3 +1,13 @@
+﻿import cylinder145 from "../assets/14.5kg cylinder.png";
+import cylinder6 from "../assets/6kg cylinder.png";
+import regulator from "../assets/hero-lpg.jpg";
+import hose from "../assets/reinforced gas hole.png";
+import gasCage from "../assets/gas cage.jpg";
+import gasDetector from "../assets/0000744_portable-combustible-gas-leak-detector-lpg-natural-gas_520.jpeg";
+import tabletopCooker from "../assets/table top gas .png";
+import commercialBurner from "../assets/commercial burner.jpg";
+import standingCooker from "../assets/Standing Gas Cooker.jpg";
+
 export const SITE = {
   name: "Amaanallah Gas",
   domain: "amaanallahresources.com",
@@ -108,8 +118,7 @@ export const PRODUCTS: Product[] = [
     description: "Standard household cylinder, filled and pressure tested.",
     price: "Ask for today's price",
     availability: "In stock",
-    image:
-     "/src/components/14.5kg-cylinder.jpg",
+    image: cylinder145,
   },
   {
     name: "6kg LPG Cylinder",
@@ -117,8 +126,7 @@ export const PRODUCTS: Product[] = [
     description: "Compact cylinder ideal for small households and students.",
     price: "Ask for today's price",
     availability: "In stock",
-    image:
-      "/src/components/6kg-cylinder.jpg",
+    image: cylinder6,
   },
   {
     name: "Gas Regulator",
@@ -126,8 +134,7 @@ export const PRODUCTS: Product[] = [
     description: "Approved low-pressure regulator with safety lock.",
     price: "On request",
     availability: "In stock",
-    image:
-      "/src/components/gas-regulator.jpg",
+    image: regulator,
   },
   {
     name: "Reinforced Gas Hose",
@@ -135,8 +142,7 @@ export const PRODUCTS: Product[] = [
     description: "Durable LPG-rated hose with clamps, sold per metre.",
     price: "On request",
     availability: "In stock",
-    image:
-      "/flameforge-app-main/src/components/reinforced gas hole.png",
+    image: hose,
   },
   {
     name: "Cylinder Safety Cage",
@@ -144,16 +150,15 @@ export const PRODUCTS: Product[] = [
     description: "Ventilated steel cage that secures cylinders outdoors.",
     price: "Quoted per size",
     availability: "On request",
-    image:
-      "/flameforge-app-main/src/assets/gas cage.jpg",
+    image: gasCage,
+  },
   {
     name: "LPG Gas Detector",
     category: "Safety Equipment",
     description: "Audible alarm that detects gas build-up early.",
     price: "On request",
     availability: "On request",
-    image:
-      "/flameforge-app-main/src/assets/0000744_portable-combustible-gas-leak-detector-lpg-natural-gas_520.jpeg",
+    image: gasDetector,
   },
   {
     name: "Table Top Gas Cooker",
@@ -161,8 +166,7 @@ export const PRODUCTS: Product[] = [
     description: "2 to 4 burner table top cookers for home kitchens.",
     price: "On request",
     availability: "In stock",
-    image:
-      "/flameforge-app-main/src/assets/table top gas .png",
+    image: tabletopCooker,
   },
   {
     name: "Commercial Burner",
@@ -170,8 +174,7 @@ export const PRODUCTS: Product[] = [
     description: "High-output burner for restaurants, hotels and schools.",
     price: "Quoted per spec",
     availability: "On request",
-    image:
-      "/flameforge-app-main/src/assets/commercial burner.jpg",
+    image: commercialBurner,
   },
   {
     name: "Standing Gas Cooker",
@@ -179,8 +182,7 @@ export const PRODUCTS: Product[] = [
     description: "Full standing cooker with oven, installed on request.",
     price: "On request",
     availability: "On request",
-    image:
-      "/flameforge-app-main/src/components/standing gas cooker.jpg",
+    image: standingCooker,
   },
 ];
 
