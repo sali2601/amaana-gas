@@ -35,7 +35,10 @@ function About() {
       <PageHero
         eyebrow="About Us"
         title="Who We Are"
-        description="Amaanallah Gas is an LPG service company providing safe and convenient LPG solutions to households and commercial customers."
+        description="At Amaana-llah Resources, we believe that access to clean and reliable energy should not be limited by location. We are committed to bringing LPG closer to rural households through convenient delivery, quality gas accessories, safety awareness, and dependable customer service.
+
+Our goal is simple: Safe Gas. Clean Energy. Delivered to You.
+"
       />
 
       <section className="container-page py-16">
@@ -57,14 +60,13 @@ function About() {
             <div className="rounded-xl border border-border bg-card p-6 shadow-card">
               <h3 className="text-lg font-bold uppercase text-primary">Our Mission</h3>
               <p className="mt-2 text-muted-foreground">
-                To provide safe, reliable and convenient LPG solutions to homes and businesses.
+                To promote the responsible use of clean energy and improving the safety and quality of life of the people we serve.
               </p>
             </div>
             <div className="rounded-xl border border-border bg-card p-6 shadow-card">
               <h3 className="text-lg font-bold uppercase text-primary">Our Vision</h3>
               <p className="mt-2 text-muted-foreground">
-                To become a trusted LPG service provider known for safety, reliability and quality
-                service.
+              To become a trusted leader in rural clean-energy distribution, making safe and affordable LPG readily accessible for future generations
               </p>
             </div>
           </div>
