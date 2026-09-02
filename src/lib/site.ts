@@ -98,6 +98,7 @@ export type Product = {
   description: string;
   price: string;
   availability: "In stock" | "On request";
+  image: string;
 };
 
 export const PRODUCTS: Product[] = [
@@ -107,6 +108,8 @@ export const PRODUCTS: Product[] = [
     description: "Standard household cylinder, filled and pressure tested.",
     price: "Ask for today's price",
     availability: "In stock",
+    image:
+     "/src/components/14.5kg-cylinder.jpg",
   },
   {
     name: "6kg LPG Cylinder",
@@ -114,6 +117,8 @@ export const PRODUCTS: Product[] = [
     description: "Compact cylinder ideal for small households and students.",
     price: "Ask for today's price",
     availability: "In stock",
+    image:
+      "/src/components/6kg-cylinder.jpg",
   },
   {
     name: "Gas Regulator",
@@ -121,6 +126,8 @@ export const PRODUCTS: Product[] = [
     description: "Approved low-pressure regulator with safety lock.",
     price: "On request",
     availability: "In stock",
+    image:
+      "/src/components/gas-regulator.jpg",
   },
   {
     name: "Reinforced Gas Hose",
@@ -128,6 +135,8 @@ export const PRODUCTS: Product[] = [
     description: "Durable LPG-rated hose with clamps, sold per metre.",
     price: "On request",
     availability: "In stock",
+    image:
+      "/flameforge-app-main/src/components/reinforced gas hole.png",
   },
   {
     name: "Cylinder Safety Cage",
@@ -135,13 +144,16 @@ export const PRODUCTS: Product[] = [
     description: "Ventilated steel cage that secures cylinders outdoors.",
     price: "Quoted per size",
     availability: "On request",
-  },
+    image:
+      "/flameforge-app-main/src/assets/gas cage.jpg",
   {
     name: "LPG Gas Detector",
     category: "Safety Equipment",
     description: "Audible alarm that detects gas build-up early.",
     price: "On request",
     availability: "On request",
+    image:
+      "/flameforge-app-main/src/assets/0000744_portable-combustible-gas-leak-detector-lpg-natural-gas_520.jpeg",
   },
   {
     name: "Table Top Gas Cooker",
@@ -149,6 +161,8 @@ export const PRODUCTS: Product[] = [
     description: "2 to 4 burner table top cookers for home kitchens.",
     price: "On request",
     availability: "In stock",
+    image:
+      "/flameforge-app-main/src/assets/table top gas .png",
   },
   {
     name: "Commercial Burner",
@@ -156,6 +170,8 @@ export const PRODUCTS: Product[] = [
     description: "High-output burner for restaurants, hotels and schools.",
     price: "Quoted per spec",
     availability: "On request",
+    image:
+      "/flameforge-app-main/src/assets/commercial burner.jpg",
   },
   {
     name: "Standing Gas Cooker",
@@ -163,6 +179,8 @@ export const PRODUCTS: Product[] = [
     description: "Full standing cooker with oven, installed on request.",
     price: "On request",
     availability: "On request",
+    image:
+      "/flameforge-app-main/src/components/Standing Gas Cooker.jpg",
   },
 ];
 

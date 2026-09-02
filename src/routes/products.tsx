@@ -43,33 +43,43 @@ function Products() {
               {PRODUCTS.filter((p) => p.category === category).map((product) => (
                 <div
                   key={product.name}
-                  className="relative flex flex-col rounded-xl border border-border bg-card p-6 pt-12 shadow-card"
+                  className="relative flex flex-col overflow-hidden rounded-xl border border-border bg-card shadow-card"
                 >
-                  <Badge
-                    className="absolute right-4 top-4"
-                    variant={product.availability === "In stock" ? "default" : "secondary"}
-                  >
-                    {product.availability}
-                  </Badge>
-                  <span className="flex size-11 items-center justify-center rounded-lg bg-accent-soft text-accent">
-                    <Package className="size-5" />
-                  </span>
-                  <h3 className="mt-4 text-lg font-bold">{product.name}</h3>
-                  <p className="mt-1.5 flex-1 text-sm text-muted-foreground">
-                    {product.description}
-                  </p>
-                  <div className="mt-4 flex items-center justify-between gap-2">
-                    <span className="text-sm font-medium">{product.price}</span>
-                  </div>
-                  <Button asChild className="mt-4" variant="outline">
-                    <a
-                      href={waLink(`Hello Amaanallah Gas, I would like to request: ${product.name}.`)}
-                      target="_blank"
-                      rel="noreferrer"
+                  <div className="relative">
+                    <img
+                      src={product.image}
+                      alt={product.name}
+                      className="h-44 w-full object-cover"
+                    />
+                    <Badge
+                      className="absolute right-3 top-3"
+                      variant={product.availability === "In stock" ? "default" : "secondary"}
                     >
-                      Request Product
-                    </a>
-                  </Button>
+                      {product.availability}
+                    </Badge>
+                  </div>
+
+                  <div className="flex flex-1 flex-col p-6">
+                    <span className="flex size-11 items-center justify-center rounded-lg bg-accent-soft text-accent">
+                      <Package className="size-5" />
+                    </span>
+                    <h3 className="mt-4 text-lg font-bold">{product.name}</h3>
+                    <p className="mt-1.5 flex-1 text-sm text-muted-foreground">
+                      {product.description}
+                    </p>
+                    <div className="mt-4 flex items-center justify-between gap-2">
+                      <span className="text-sm font-medium">{product.price}</span>
+                    </div>
+                    <Button asChild className="mt-4" variant="outline">
+                      <a
+                        href={waLink(`Hello Amaanallah Gas, I would like to request: ${product.name}.`)}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Request Product
+                      </a>
+                    </Button>
+                  </div>
                 </div>
               ))}
             </div>
