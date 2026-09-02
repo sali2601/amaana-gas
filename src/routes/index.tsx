@@ -67,7 +67,7 @@ function Home() {
               </Button>
             </div>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-sm opacity-90">
-              {["Trained technicians", "Approved equipment", "Same-day delivery"].map((item) => (
+              {["Trained technicians", "NPA Approved equipment", "Same-day delivery"].map((item) => (
                 <span key={item} className="flex items-center gap-2">
                   <CheckCircle2 className="size-4" /> {item}
                 </span>
