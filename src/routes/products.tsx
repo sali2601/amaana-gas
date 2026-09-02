@@ -45,21 +45,21 @@ function Products() {
                   key={product.name}
                   className="relative flex flex-col overflow-hidden rounded-xl border border-border bg-card shadow-card"
                 >
-                  <div className="relative">
+                  <div className="relative overflow-hidden bg-muted">
                     <img
                       src={product.image}
                       alt={product.name}
-                      className="h-44 w-full object-cover"
+                      className="h-52 w-full object-cover transition-transform duration-300 hover:scale-[1.02]"
                     />
                     <Badge
-                      className="absolute right-3 top-3"
+                      className="absolute right-3 top-3 shadow-sm"
                       variant={product.availability === "In stock" ? "default" : "secondary"}
                     >
                       {product.availability}
                     </Badge>
                   </div>
 
-                  <div className="flex flex-1 flex-col p-6">
+                  <div className="flex flex-1 flex-col p-6 pt-5">
                     <span className="flex size-11 items-center justify-center rounded-lg bg-accent-soft text-accent">
                       <Package className="size-5" />
                     </span>
