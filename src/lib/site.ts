@@ -1,6 +1,6 @@
-﻿import cylinder145 from "../assets/14.5kg cylinder.png";
-import cylinder6 from "../assets/6kg cylinder.png";
-import regulator from "../assets/hero-lpg.jpg";
+﻿import cylinder145 from "../components/145kg.jpg";
+import cylinder6 from "../components/6kg.jpg";
+import regulator from "../components/H63d430b9c4ab4c9f872bee4f86360245A.jpg_200x200.avif";
 import hose from "../assets/reinforced gas hole.png";
 import gasCage from "../assets/gas cage.jpg";
 import gasDetector from "../assets/0000744_portable-combustible-gas-leak-detector-lpg-natural-gas_520.jpeg";
