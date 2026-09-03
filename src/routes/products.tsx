@@ -45,14 +45,15 @@ function Products() {
                   key={product.name}
                   className="relative flex flex-col overflow-hidden rounded-xl border border-border bg-card shadow-card"
                 >
-                  <div className="relative overflow-hidden bg-muted">
+                  <div className="relative overflow-hidden bg-gradient-to-br from-muted to-background">
                     <img
                       src={product.image}
                       alt={product.name}
-                      className="h-52 w-full object-cover transition-transform duration-300 hover:scale-[1.02]"
+                      className="h-56 w-full object-cover object-center transition duration-300 ease-out hover:scale-[1.03]"
                     />
+                    <div className="absolute inset-x-0 top-0 h-20 bg-gradient-to-b from-black/15 to-transparent" />
                     <Badge
-                      className="absolute right-3 top-3 shadow-sm"
+                      className="absolute right-3 top-3 z-10 border-0 bg-white/90 text-foreground shadow-sm backdrop-blur-sm"
                       variant={product.availability === "In stock" ? "default" : "secondary"}
                     >
                       {product.availability}

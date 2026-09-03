@@ -1,12 +1,12 @@
-﻿import cylinder145 from "../components/145kg.jpg";
+﻿import cylinder145 from "../components/145kg.JPG";
 import cylinder6 from "../components/6kg.jpg";
-import regulator from "../components/H63d430b9c4ab4c9f872bee4f86360245A.jpg_200x200.avif";
-import hose from "../assets/reinforced gas hole.png";
-import gasCage from "../assets/gas cage.jpg";
-import gasDetector from "../assets/0000744_portable-combustible-gas-leak-detector-lpg-natural-gas_520.jpeg";
-import tabletopCooker from "../assets/table top gas .png";
-import commercialBurner from "../assets/commercial burner.jpg";
-import standingCooker from "../assets/Standing Gas Cooker.jpg";
+import regulator from "../components/hero-lpg.jpg";
+import hose from "../components/reinforced gas hole.png";
+import gasCage from "../components/gas cage.jpg";
+import gasDetector from "../components/0000744_portable-combustible-gas-leak-detector-lpg-natural-gas_520.jpeg";
+import tabletopCooker from "../components/table top gas .png";
+import commercialBurner from "../components/commercial burner.jpg";
+import standingCooker from "../components/Standing Gas Cooker.jpg";
 
 export const SITE = {
   name: "Amaanallah Gas",
