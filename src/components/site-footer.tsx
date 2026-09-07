@@ -97,7 +97,7 @@ export function SiteFooter() {
                 rel="noreferrer"
                 className="hover:text-foreground"
               >
-                 {SITE.whatsapp}
+                {SITE.whatsapp}
               </a>
             </li>
             <li className="flex items-center gap-2">

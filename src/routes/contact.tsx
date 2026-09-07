@@ -64,8 +64,6 @@ function Contact() {
     }
   };
 
-
-
   return (
     <>
       <PageHero
@@ -190,4 +188,3 @@ function Contact() {
     </>
   );
 }
-

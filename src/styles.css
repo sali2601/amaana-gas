@@ -105,7 +105,8 @@
     oklch(0.42 0.12 160) 100%
   );
   --gradient-accent: linear-gradient(120deg, var(--primary), var(--accent));
-  --shadow-card: 0 1px 2px oklch(0.22 0.03 235 / 0.06), 0 12px 28px -18px oklch(0.22 0.03 235 / 0.35);
+  --shadow-card:
+    0 1px 2px oklch(0.22 0.03 235 / 0.06), 0 12px 28px -18px oklch(0.22 0.03 235 / 0.35);
   --shadow-lift: 0 18px 40px -22px oklch(0.22 0.03 235 / 0.5);
 }
 

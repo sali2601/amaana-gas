@@ -16,7 +16,8 @@ export const Route = createFileRoute("/services")({
       { property: "og:title", content: "Our LPG Services — Amaanallah Gas" },
       {
         property: "og:description",
-        content: "Delivery, leakage testing, installation, accessories, maintenance and commercial LPG.",
+        content:
+          "Delivery, leakage testing, installation, accessories, maintenance and commercial LPG.",
       },
     ],
   }),
@@ -25,7 +26,8 @@ export const Route = createFileRoute("/services")({
 
 function ServicesLayout() {
   const isChild = useRouterState({
-    select: (s) => s.matches.some((m) => m.routeId !== "/services" && m.pathname.startsWith("/services/")),
+    select: (s) =>
+      s.matches.some((m) => m.routeId !== "/services" && m.pathname.startsWith("/services/")),
   });
 
   if (isChild) return <Outlet />;

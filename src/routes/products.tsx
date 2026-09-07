@@ -45,13 +45,13 @@ function Products() {
                   key={product.name}
                   className="relative flex flex-col overflow-hidden rounded-xl border border-border bg-card shadow-card"
                 >
-                  <div className="relative overflow-hidden bg-gradient-to-br from-muted to-background">
+                  <div className="relative overflow-hidden bg-linear-to-br from-muted to-background">
                     <img
                       src={product.image}
                       alt={product.name}
                       className="h-56 w-full object-cover object-center transition duration-300 ease-out hover:scale-[1.03]"
                     />
-                    <div className="absolute inset-x-0 top-0 h-20 bg-gradient-to-b from-black/15 to-transparent" />
+                    <div className="absolute inset-x-0 top-0 h-20 bg-linear-to-b from-black/15 to-transparent" />
                     <Badge
                       className="absolute right-3 top-3 z-10 border-0 bg-white/90 text-foreground shadow-sm backdrop-blur-sm"
                       variant={product.availability === "In stock" ? "default" : "secondary"}
@@ -73,7 +73,9 @@ function Products() {
                     </div>
                     <Button asChild className="mt-4" variant="outline">
                       <a
-                        href={waLink(`Hello Amaanallah Gas, I would like to request: ${product.name}.`)}
+                        href={waLink(
+                          `Hello Amaanallah Gas, I would like to request: ${product.name}.`,
+                        )}
                         target="_blank"
                         rel="noreferrer"
                       >

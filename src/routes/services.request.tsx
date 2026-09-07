@@ -101,7 +101,9 @@ function ServiceRequest() {
   if (reference) {
     const summary = `Service request ${reference}%0AName: ${form.name}%0APhone: ${form.phone}%0AServices: ${selected
       .map((s) => SERVICE_OPTIONS.find((o) => o.id === s)?.label)
-      .join(", ")}%0APremises: ${premises}%0ALocation: ${form.location}%0APreferred: ${form.date} ${form.time}`;
+      .join(
+        ", ",
+      )}%0APremises: ${premises}%0ALocation: ${form.location}%0APreferred: ${form.date} ${form.time}`;
     return (
       <section className="container-page py-20">
         <div className="mx-auto max-w-xl rounded-2xl border border-border bg-card p-8 text-center shadow-card">

@@ -138,7 +138,7 @@ export const PRODUCTS: Product[] = [
     image: regulator,
   },
 
-   {
+  {
     name: "Valves",
     category: "LPG Equipment",
     description: "Standard household cylinder, filled and pressure tested.",

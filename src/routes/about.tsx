@@ -60,13 +60,15 @@ Our goal is simple: Safe Gas. Clean Energy. Delivered to You.
             <div className="rounded-xl border border-border bg-card p-6 shadow-card">
               <h3 className="text-lg font-bold uppercase text-primary">Our Mission</h3>
               <p className="mt-2 text-muted-foreground">
-                To promote the responsible use of clean energy and improving the safety and quality of life of the people we serve.
+                To promote the responsible use of clean energy and improving the safety and quality
+                of life of the people we serve.
               </p>
             </div>
             <div className="rounded-xl border border-border bg-card p-6 shadow-card">
               <h3 className="text-lg font-bold uppercase text-primary">Our Vision</h3>
               <p className="mt-2 text-muted-foreground">
-              To become a trusted leader in rural clean-energy distribution, making safe and affordable LPG readily accessible for future generations
+                To become a trusted leader in rural clean-energy distribution, making safe and
+                affordable LPG readily accessible for future generations
               </p>
             </div>
           </div>

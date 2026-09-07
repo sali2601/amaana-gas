@@ -359,7 +359,11 @@ function AdminDashboard() {
                 assignedTo={request.assigned_to}
                 staff={staff.data ?? []}
                 onStatus={(status) =>
-                  updateRow.mutate({ table: "service_requests", id: request.id, values: { status } })
+                  updateRow.mutate({
+                    table: "service_requests",
+                    id: request.id,
+                    values: { status },
+                  })
                 }
                 onAssign={(assigned) =>
                   updateRow.mutate({
@@ -394,9 +398,7 @@ function AdminDashboard() {
                 className="mt-4"
                 size="sm"
                 variant={message.handled ? "outline" : "default"}
-                onClick={() =>
-                  toggleHandled.mutate({ id: message.id, handled: !message.handled })
-                }
+                onClick={() => toggleHandled.mutate({ id: message.id, handled: !message.handled })}
               >
                 {message.handled ? "Mark as open" : "Mark as handled"}
               </Button>

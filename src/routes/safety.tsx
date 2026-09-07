@@ -51,7 +51,10 @@ function Safety() {
         <SectionHeading className="mt-16" eyebrow="Safety Tips" title="Everyday LPG safety" />
         <div className="mt-8 grid gap-5 md:grid-cols-2">
           {SAFETY_TIPS.map((tip) => (
-            <div key={tip.title} className="rounded-xl border border-border bg-card p-6 shadow-card">
+            <div
+              key={tip.title}
+              className="rounded-xl border border-border bg-card p-6 shadow-card"
+            >
               <div className="flex items-center gap-2">
                 <ShieldCheck className="size-5 text-primary" />
                 <h3 className="text-base font-bold">{tip.title}</h3>

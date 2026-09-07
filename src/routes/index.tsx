@@ -67,11 +67,13 @@ function Home() {
               </Button>
             </div>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-sm opacity-90">
-              {["Trained technicians", "NPA Approved equipment", "Same-day delivery"].map((item) => (
-                <span key={item} className="flex items-center gap-2">
-                  <CheckCircle2 className="size-4" /> {item}
-                </span>
-              ))}
+              {["Trained technicians", "NPA Approved equipment", "Same-day delivery"].map(
+                (item) => (
+                  <span key={item} className="flex items-center gap-2">
+                    <CheckCircle2 className="size-4" /> {item}
+                  </span>
+                ),
+              )}
             </div>
           </div>
           <div className="overflow-hidden rounded-2xl shadow-lift">
@@ -110,7 +112,8 @@ function Home() {
                   hash={service.slug}
                   className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-primary"
                 >
-                  Learn More <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
+                  Learn More{" "}
+                  <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
                 </Link>
               </div>
             );

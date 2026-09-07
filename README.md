@@ -12,8 +12,6 @@ Version: 1.0
 Primary Users: Households, schools, restaurants, hotels, businesses
 Platform: Responsive Web Application — Desktop, Tablet & Mobile
 
-
-
 1. Product Overview
 
 Amaanallah Gas is an LPG service company providing safe and convenient LPG solutions to households and commercial customers.
@@ -31,8 +29,6 @@ Learn about LPG safety
 Track the status of service requests
 The platform will also provide an Admin Dashboard through which Amaanallah Gas staff can manage customers, orders, deliveries, service requests and products.
 
-
-
 2. Business Goals
 
 Primary goals
@@ -45,7 +41,6 @@ Digitize service-request management.
 Promote LPG safety.
 Generate leads from households and businesses.
 Eventually provide online ordering and payment.
-
 
 3. Target Customers
 
@@ -85,7 +80,6 @@ Cylinder installation
 Maintenance
 Safety services
 
-
 4. Core Services
 
 The website should prominently display these six services.
@@ -114,7 +108,6 @@ Quantity
 Preferred delivery date/time
 Additional instructions
 
-
 2. Gas Leakage Testing
 
 Customers can request a professional inspection for suspected or routine gas leakage.
@@ -132,8 +125,6 @@ CTA:
 
 Book Leakage Test
 
-
-
 3. Gas Cylinder Installation + Safety Cage
 
 Customers can request:
@@ -146,8 +137,6 @@ Complete setup inspection
 CTA:
 
 Request Installation
-
-
 
 4. Gas Accessories & Appliances
 
@@ -171,7 +160,6 @@ Price, if applicable
 Availability
 Request/Purchase button
 
-
 5. Gas Appliance Maintenance
 
 Customers can request maintenance for:
@@ -185,8 +173,6 @@ CTA:
 
 Book Maintenance
 
-
-
 5. Website Structure
 
 The main navigation should be:
@@ -196,8 +182,6 @@ Home | About Us | Services | Products | LPG Delivery | Safety | Contact
 And a prominent button:
 
 Request Service
-
-
 
 6. Homepage
 
@@ -225,7 +209,6 @@ Amaanallah Gas branding
 LPG cylinders
 Delivery vehicle/tricycle
 Professional technician
-
 
 7. Services Section
 
@@ -258,8 +241,6 @@ Reliable LPG supply and support for schools, restaurants and hotels.
 Each card should have:
 
 Learn More →
-
-
 
 8. LPG Delivery System
 
@@ -301,8 +282,6 @@ Generate:
 
 Order ID: AMG-000123
 
-
-
 9. Service Booking System
 
 Customers should be able to select:
@@ -327,8 +306,6 @@ Location
 Description
 
 Submit Request
-
-
 
 10. Customer Dashboard
 
@@ -367,7 +344,6 @@ On the way
 Completed
 Cancelled
 
-
 11. Notifications
 
 Customers should receive notifications when:
@@ -384,7 +360,6 @@ Notifications can eventually use:
 Email
 SMS
 WhatsApp
-
 
 12. Admin Dashboard
 
@@ -407,8 +382,6 @@ Service Requests
 Revenue
 
 Customers
-
-
 
 13. Order Management
 
@@ -434,8 +407,6 @@ Quantity: 2
 Location: Koforidua
 Status: Driver Assigned
 
-
-
 14. Driver Module
 
 A future mobile-friendly driver interface can show:
@@ -454,8 +425,6 @@ Navigate
 Call Customer
 
 Mark Delivered
-
-
 
 15. Technician Module
 
@@ -484,7 +453,6 @@ Add notes
 Upload photos
 Mark completed
 
-
 16. Gas Safety Section
 
 This should be a major part of the website.
@@ -511,8 +479,6 @@ Include a prominent emergency instruction:
 
 If you suspect a gas leak, avoid flames and electrical switches, move to a safe location and contact a qualified professional.
 
-
-
 17. About Amaanallah Gas
 
 Include:
@@ -536,7 +502,6 @@ Reliability
 Quality
 Customer Service
 Professionalism
-
 
 18. Contact Page
 
@@ -573,8 +538,6 @@ Subject
 Message
 Send Message
 
-
-
 19. Product Catalogue
 
 Products should be organized into categories.
@@ -600,8 +563,6 @@ Customers can click:
 Request Product
 
 rather than necessarily paying online in the first version.
-
-
 
 20. Payment System
 
@@ -629,7 +590,6 @@ Pending
 Paid
 Failed
 Refunded
-
 
 21. Database Structure
 
@@ -757,8 +717,6 @@ status
 
 notes
 
-
-
 22. User Roles
 
 The system should have different permissions.
@@ -803,7 +761,6 @@ Add inspection notes
 Upload service photos
 Complete jobs
 
-
 23. Admin Reports
 
 The admin should eventually be able to see:
@@ -830,7 +787,6 @@ Customers
 New customers
 Returning customers
 Most active customers
-
 
 24. Recommended Technology
 
@@ -870,7 +826,6 @@ Vercel — frontend
 Supabase / PostgreSQL — database
 Cloudinary — images
 
-
 25. MVP — Version 1
 
 Don’t build everything at once.
@@ -903,8 +858,6 @@ Admin
 
 Don’t start with complex online payments, live GPS tracking and mobile apps. Those can come later.
 
-
-
 26. Version 2
 
 After customers start using the platform:
@@ -921,7 +874,6 @@ Loyalty program
 Subscription LPG delivery
 Business accounts
 
-
 27. Branding Direction
 
 Based on the Amaana Gas branding you’ve been developing, I’d use:
@@ -936,77 +888,75 @@ You also mentioned that your gas cylinders are white, green and blue, so the web
 
 The design should be clean rather than crowded—large service cards, strong typography, high-quality cylinder/vehicle imagery and plenty of white space.
 
-
-
 28. Main Homepage Flow
 
 I’d structure the homepage like this:
 
 ┌─────────────────────────────────────┐
 
-│ AMAANALLAH GAS       SERVICES       │
+│ AMAANALLAH GAS SERVICES │
 
-│                         CONTACT     │
-
-├─────────────────────────────────────┤
-
-│                                     │
-
-│      SAFE GAS. SAFE HOME.           │
-
-│         SAFE BUSINESS.              │
-
-│                                     │
-
-│     Reliable LPG Solutions          │
-
-│                                     │
-
-│  [ ORDER LPG ] [ REQUEST SERVICE ]  │
-
-│                                     │
+│ CONTACT │
 
 ├─────────────────────────────────────┤
 
-│ OUR SERVICES                        │
+│ │
 
-│                                     │
+│ SAFE GAS. SAFE HOME. │
 
-│ [ LPG DELIVERY ] [ LEAK TESTING ]  │
+│ SAFE BUSINESS. │
 
-│ [ INSTALLATION ] [ ACCESSORIES ]   │
+│ │
+
+│ Reliable LPG Solutions │
+
+│ │
+
+│ [ ORDER LPG ] [ REQUEST SERVICE ] │
+
+│ │
+
+├─────────────────────────────────────┤
+
+│ OUR SERVICES │
+
+│ │
+
+│ [ LPG DELIVERY ] [ LEAK TESTING ] │
+
+│ [ INSTALLATION ] [ ACCESSORIES ] │
 
 │ [ MAINTENANCE ] [ COMMERCIAL LPG ] │
 
-│                                     │
+│ │
 
 ├─────────────────────────────────────┤
 
-│ WHY AMAANALLAH GAS?                 │
+│ WHY AMAANALLAH GAS? │
 
-│                                     │
+│ │
 
-│ Safety | Reliability | Quality      │
-
-├─────────────────────────────────────┤
-
-│ LPG SAFETY TIPS                     │
+│ Safety | Reliability | Quality │
 
 ├─────────────────────────────────────┤
 
-│ OUR PRODUCTS                        │
+│ LPG SAFETY TIPS │
 
 ├─────────────────────────────────────┤
 
-│ REQUEST LPG DELIVERY                │
+│ OUR PRODUCTS │
 
 ├─────────────────────────────────────┤
 
-│ CONTACT US                          │
+│ REQUEST LPG DELIVERY │
 
 ├─────────────────────────────────────┤
 
-│ FOOTER                              │
+│ CONTACT US │
+
+├─────────────────────────────────────┤
+
+│ FOOTER │
 
 └─────────────────────────────────────┘
 

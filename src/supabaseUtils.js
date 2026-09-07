@@ -3,18 +3,16 @@ import { supabase } from "./supabase";
 // Add new contact message
 export const addContactMessage = async (messageData) => {
   try {
-    const { data, error } = await supabase
-      .from("contact_messages")
-      .insert([
-        {
-          name: messageData.name,
-          phone: messageData.phone,
-          email: messageData.email,
-          subject: messageData.subject,
-          message: messageData.message
-        }
-      ]);
-    
+    const { data, error } = await supabase.from("contact_messages").insert([
+      {
+        name: messageData.name,
+        phone: messageData.phone,
+        email: messageData.email,
+        subject: messageData.subject,
+        message: messageData.message,
+      },
+    ]);
+
     if (error) throw error;
     console.log("Message sent:", data);
     return data;
@@ -30,7 +28,7 @@ export const getContactMessages = async () => {
       .from("contact_messages")
       .select("*")
       .order("created_at", { ascending: false });
-    
+
     if (error) throw error;
     return data;
   } catch (error) {
