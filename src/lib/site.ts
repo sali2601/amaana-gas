@@ -1,12 +1,13 @@
 ﻿import cylinder145 from "../components/145kg.JPG";
 import cylinder6 from "../components/6kg.jpg";
-import regulator from "../components/hero-lpg.jpg";
+import regulator from "../components/lpg-gas-regulator-isolated-background-png.png";
 import hose from "../components/reinforced gas hole.png";
 import gasCage from "../components/gas cage.jpg";
 import gasDetector from "../components/0000744_portable-combustible-gas-leak-detector-lpg-natural-gas_520.jpeg";
 import tabletopCooker from "../components/table top gas .png";
 import commercialBurner from "../components/commercial burner.jpg";
 import standingCooker from "../components/Standing Gas Cooker.jpg";
+import valves from "../components/Standing Gas Cooker.jpg";
 
 export const SITE = {
   name: "Amaanallah Gas",
@@ -136,6 +137,16 @@ export const PRODUCTS: Product[] = [
     availability: "In stock",
     image: regulator,
   },
+
+   {
+    name: "Valves",
+    category: "LPG Equipment",
+    description: "Standard household cylinder, filled and pressure tested.",
+    price: "Ask for today's price",
+    availability: "In stock",
+    image: valves,
+  },
+
   {
     name: "Reinforced Gas Hose",
     category: "LPG Equipment",
