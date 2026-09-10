@@ -15,7 +15,7 @@ export const SITE = {
   phone: "0500804207",
   whatsapp: "0593533943",
   whatsappIntl: "233593533943",
-  email: "amaanallahresources@gmail.com",
+  email: "info@amaanallahresources.com",
   location: "Koforidua / Akim-Tafo area, Eastern Region, Ghana",
   hours: [
     { day: "Monday - Friday", time: "8:00 AM - 6:00 PM" },

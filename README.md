@@ -517,7 +517,7 @@ WhatsApp
 
 0594120503
 
-Email/Website: amaanallahresources@gmail.com
+Email/Website: info@amaanallahresources.com
 
 Use the correct business web address you provided:
 

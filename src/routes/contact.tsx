@@ -17,7 +17,7 @@ export const Route = createFileRoute("/contact")({
       {
         name: "description",
         content:
-          "Call 0500804207, WhatsApp 0593533943 or email amaanallahresources@gmail.com to order LPG or book a gas service in Koforidua and Akim-Taco.",
+          "Call 0500804207, WhatsApp 0593533943 or email info@amaanallahresources.com to order LPG or book a gas service in Koforidua and Akim-Taco.",
       },
       { property: "og:title", content: "Contact Amaanallah Gas" },
       {
