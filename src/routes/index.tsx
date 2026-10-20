@@ -11,7 +11,7 @@ import {
   Phone,
   AlertTriangle,
 } from "lucide-react";
-import heroImage from "@/assets/hero-lpg.jpg";
+import { HeroCarousel } from "@/components/hero-carousel";
 import { Button } from "@/components/ui/button";
 import { SectionHeading } from "@/components/section";
 import { SERVICES, SAFETY_TIPS, PRODUCTS, SITE } from "@/lib/site";
@@ -76,15 +76,7 @@ function Home() {
               )}
             </div>
           </div>
-          <div className="overflow-hidden rounded-2xl shadow-lift">
-            <img
-              src={heroImage}
-              alt="Amaanallah Gas technician with white, green and blue LPG cylinders beside a delivery tricycle"
-              width={1600}
-              height={1104}
-              className="h-full w-full object-cover"
-            />
-          </div>
+          <HeroCarousel />
         </div>
       </section>
 
