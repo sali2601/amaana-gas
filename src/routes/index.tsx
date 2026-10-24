@@ -11,11 +11,7 @@ import {
   Phone,
   AlertTriangle,
 } from "lucide-react";
-<<<<<<< HEAD
 import { HeroCarousel } from "@/components/hero-carousel";
-=======
-import { HeroCarousel } from "@/components/HeroCarousel";
->>>>>>> 3ef38d7 (Add hero image carousel)
 import { Button } from "@/components/ui/button";
 import { SectionHeading } from "@/components/section";
 import { SERVICES, SAFETY_TIPS, PRODUCTS, SITE } from "@/lib/site";
